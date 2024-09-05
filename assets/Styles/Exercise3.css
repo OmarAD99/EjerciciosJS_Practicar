@@ -1,0 +1,198 @@
+:root{
+    --Color-Background-Header: #282c34;
+    --Color-Background-Footer: #282c34;
+    --Color-Letters-FooterHeader: #c1c1c1;
+    --Color-Background-Main: #c1c1c1;
+    --Color-Letters-Main: #333;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@media(min-width: 768px){
+
+    .Header{
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background: var(--Color-Background-Header);
+    }
+
+    .Header .Logotipo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .Header .Logotipo h1{
+        font-size: 20px;
+        color: var(--Color-Letters-FooterHeader);
+    }
+
+    .Header .Logotipo i{
+        margin-left: 10px;
+        font-size: 22px;
+        color: var(--Color-Letters-FooterHeader);
+    }
+
+    /* Main */
+
+    .Main{
+        text-align: center;
+        background: var(--Color-Background-Main);
+        padding-top: 125px;
+        padding-bottom: 125px;
+    }
+
+    .Main #Exercise3 h3{
+        font-size: 20px;
+        color: var(--Color-Letters-Main);
+    }
+
+    .Main .Arrows{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .Main .Arrows .Arrow-Left{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+
+    .Main .Arrows .Arrow-Left p, i{
+        font-size: 20px;
+        color: var(--Color-Letters-Main);
+    }
+
+    .Main .Arrows .Arrow-Right{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        margin-left: 10px;
+    }
+
+    .Main .Arrows .Arrow-Right p, i{
+        font-size: 20px;
+        color: var(--Color-Letters-Main);
+    }
+
+    /* Footer */
+
+    .Footer{
+        text-align: center;
+        background: var(--Color-Background-Footer);
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .Footer .Footer__CopyRight{
+        font-size: 15px;
+        color: var(--Color-Letters-FooterHeader);
+    }
+
+    .Footer .Footer__CopyRight .Footer__CopyRight-Link{
+        color: var(--Color-Letters-FooterHeader);
+    }
+
+}
+
+@media(max-width: 767px){
+
+    /* Header */
+
+    .Header{
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background: var(--Color-Background-Header);
+    }
+
+    .Header .Logotipo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .Header .Logotipo h1{
+        font-size: 14px;
+        color: var(--Color-Letters-FooterHeader);
+    }
+
+    .Header .Logotipo i{
+        margin-left: 10px;
+        font-size: 17px;
+        color: var(--Color-Letters-FooterHeader);
+    }
+
+    /* Main */
+
+    .Main{
+        text-align: center;
+        background: var(--Color-Background-Main);
+        padding-top: 125px;
+        padding-bottom: 125px;
+    }
+
+    .Main #Exercise3 h3{
+        font-size: 14px;
+        color: var(--Color-Letters-Main);
+    }
+
+    .Main .Arrows{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .Main .Arrows .Arrow-Left{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+
+    .Main .Arrows .Arrow-Left p, i{
+        font-size: 14px;
+        color: var(--Color-Letters-Main);
+    }
+
+    .Main .Arrows .Arrow-Right{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        margin-left: 10px;
+    }
+
+    .Main .Arrows .Arrow-Right p, i{
+        font-size: 14px;
+        color: var(--Color-Letters-Main);
+    }
+
+    /* Footer */
+
+    .Footer{
+        text-align: center;
+        background: var(--Color-Background-Footer);
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .Footer .Footer__CopyRight{
+        font-size: 14px;
+        color: var(--Color-Letters-FooterHeader);
+    }
+
+    .Footer .Footer__CopyRight .Footer__CopyRight-Link{
+        color: var(--Color-Letters-FooterHeader);
+    }
+
+}
