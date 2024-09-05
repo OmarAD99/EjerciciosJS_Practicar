@@ -122,7 +122,7 @@
     }
 
     .Header .Logotipo h1{
-        font-size: 14px;
+        font-size: 12px;
         color: var(--Color-Letters-FooterHeader);
     }
 
@@ -142,7 +142,7 @@
 
     .Main #Exercise1 h3{
         text-align: center;
-        font-size: 14px;
+        font-size: 12px;
         color: var(--Color-Letters-Main);
     }
 
@@ -161,7 +161,7 @@
     }
 
     .Main .Arrows .Arrow-Left p, i{
-        font-size: 14px;
+        font-size: 12px;
         color: var(--Color-Letters-Main);
     }
 
@@ -173,7 +173,7 @@
     }
 
     .Main .Arrows .Arrow-Right p, i{
-        font-size: 14px;
+        font-size: 12px;
         color: var(--Color-Letters-Main);
     }
 
@@ -187,7 +187,7 @@
     }
 
     .Footer .Footer__CopyRight{
-        font-size: 14px;
+        font-size: 12px;
         color: var(--Color-Letters-FooterHeader);
     }
 
