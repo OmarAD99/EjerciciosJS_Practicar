@@ -123,7 +123,7 @@
 
     .Main h3{
         text-align: center;
-        font-size: 14px;
+        font-size: 12px;
         color: var(--Color-Letters-Main);
     }
 
@@ -135,8 +135,14 @@
         margin-top: 30px;
     }
 
-    .Main a i{
+    .Main a, p{
         font-size: 12px;
+        color: var(--Color-Letters-Main);
+    }
+
+    .Main a, i{
+        font-size: 12px;
+        color: var(--Color-Letters-Main);
         margin-left: 10px;
     }
 
@@ -150,7 +156,7 @@
     }
 
     .Footer .Footer__CopyRight{
-        font-size: 14px;
+        font-size: 12px;
         color: var(--Color-Letters-FooterHeader);
     }
 
