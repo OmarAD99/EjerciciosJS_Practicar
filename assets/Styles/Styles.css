@@ -1,8 +1,9 @@
 :root{
-    --Color-Background-Header: rgb(255, 253, 140);
-    --Color-Background-Main: #FFF;
-    --Color-Background-Footer: rgb(255, 253, 140);
+    --Color-Background-Header: #282c34;
+    --Color-Background-Footer: #282c34;
     --Color-Letters-FooterHeader: #c1c1c1;
+    --Color-Background-Main: #c1c1c1;
+    --Color-Letters-Main: #333;
 }
 
 *{
@@ -14,8 +15,8 @@
 
     .Header{
         text-align: center;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
         background: var(--Color-Background-Header);
     }
 
@@ -39,31 +40,32 @@
 
     .Main{
         text-align: center;
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 125px;
+        padding-bottom: 125px;
     }
 
     .Main h3{
         text-align: center;
-        font-size: 17px;
+        font-size: 20px;
+        color: var(--Color-Letters-Main);
     }
 
     .Main a{
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 30px;
         text-decoration: none;
-        margin-top: 40px;
     }
 
     .Main a i{
-        margin-left: 7px;
+        margin-left: 10px;
     }
 
     .Footer{
         text-align: center;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
         background: var(--Color-Background-Header);
     }
 
@@ -85,8 +87,8 @@
     .Header{
         text-align: center;
         background: var(--Color-Background-Header);
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 
     .Header .Logotipo{
@@ -114,25 +116,28 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        background: var(--Color-Background-Main);
+        padding-top: 125px;
+        padding-bottom: 125px;
     }
 
     .Main h3{
         text-align: center;
-        font-size: 12px;
+        font-size: 14px;
+        color: var(--Color-Letters-Main);
     }
 
     .Main a{
         display: flex;
+        justify-content: center;
         align-items: center;
         text-decoration: none;
-        margin-top: 20px;
+        margin-top: 30px;
     }
 
     .Main a i{
         font-size: 12px;
-        margin-left: 7px;
+        margin-left: 10px;
     }
 
     /* Footer */
@@ -140,8 +145,17 @@
     .Footer{
         text-align: center;
         background: var(--Color-Background-Footer);
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .Footer .Footer__CopyRight{
+        font-size: 14px;
+        color: var(--Color-Letters-FooterHeader);
+    }
+
+    .Footer .Footer__CopyRight .Footer__CopyRight-Link{
+        color: var(--Color-Letters-FooterHeader);
     }
 
 }
